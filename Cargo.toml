@@ -1,0 +1,17 @@
+[package]
+name = "yew_todo_example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+strum = "0.23"
+strum_macros = "0.23"
+serde = "1"
+serde_derive = "1"
+yew = "0.19.3"
+gloo = "0.4"
+
+[dependencies.web-sys]
+version = "0.3"
